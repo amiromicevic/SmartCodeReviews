@@ -1,5 +1,13 @@
 # SmartCodeReviews
 
+This project downloads team code reviews notes and applies NLP processing to the text entries, including semantic analysis and summary extraction. It also performs some more basic NLP opearations, such as frequent word counts and the creation of a word cloud.
+
+The point is in the fact that a lot of "information" may be available to mine from the code review notes that can provide new, creative and yet undiscovered insights into individual and team's thinking, state, culture and areas for improvement.
+
+Depending on the results of this project, particualrly of the Python componenet carrying out the NLP tasks, similar approach may be deployed to other areas that could benefit from natural text processing.
+
+The project utilisies C# as the main service provider and Python as the data scientfic and machine learning component. The following section depicts the basic, overall design and implementation.
+
 DESIGN
 
 Data pipeline
@@ -38,5 +46,4 @@ Insights
 	
 	-PowerBI connects to datastore, extracts and filters data to create visual dashboards
 
-Login
-	-Simple text file login to begin with (Time stamp, error message trail)
+
