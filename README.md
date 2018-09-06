@@ -40,7 +40,8 @@ Data pipeline
 Processing
 	
 	-runs after Data pipeline process successfully completes
-	-it is the same custom C# executable that integrates via IronPython with Python code that loads semantic analysis model from file and runs it
+	-it is the same custom C# executable that integrates via IronPython with Python code that 
+	loads the saved semantic analysis and summary extraction model from file and runs it
 
 Insights
 	
