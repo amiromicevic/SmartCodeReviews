@@ -1,4 +1,4 @@
-# SmartCodeReviews
+# Smart Code Reviews
 
 This project downloads team code reviews notes and applies NLP processing to the text entries, including semantic analysis and summary extraction. It also performs some more basic NLP opearations, such as frequent word counts and the creation of a word cloud.
 
