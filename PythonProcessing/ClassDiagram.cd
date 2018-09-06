@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PythonProcessing.DataLayer.AdoNetDb" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAA=</HashCode>
+      <FileName>DataLayer\AdoNetDb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PythonProcessing.DataPipeline.DataPipelineJob" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAAAAAAAAAAAACIAAkAAAAEABAAAgAAAAAAA=</HashCode>
+      <FileName>DataPipeline\DataPipelineJob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PythonProcessing.DataPipeline.DataPipelineJobTemplate" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAACIAAAAAAAEABAAAAAAAAAAI=</HashCode>
+      <FileName>DataPipeline\DataPipelineJobTemplate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PythonProcessing.DataPipeline.RallyRequestFactory" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataPipeline\RequestFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PythonProcessing.PipelineJob" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PipelineJob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PythonProcessing.Program" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PythonProcessing.SimpleInjectorDependencyResolver" Collapsed="true">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleInjectorDependencyResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PythonProcessing.Processing.PythonJob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Processing\PythonJob.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.21" Collapsed="true" />
+  </Class>
+  <Interface Name="PythonProcessing.DataLayer.IDataLayer" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>DataLayer\IDataLayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PythonProcessing.DataPipeline.IDataPipelineJob" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAACIAAAAAAAEABAAAAAAAAAAI=</HashCode>
+      <FileName>DataPipeline\IDataPipelineJob.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PythonProcessing.Processing.IPythonJob" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Processing\IPythonJob.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
