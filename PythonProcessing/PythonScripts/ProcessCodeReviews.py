@@ -23,9 +23,9 @@ def getData():
 
     return newCodeReviews
 
-def processCodeReviews():
-    newCodeReviews = list()
+def processCodeReviews(newCodeReviews):
+    # awaiting final code 
 
 def run():
     newCodeReviews = getData()
-    processCodeReviews()
+    processCodeReviews(newCodeReviews)
