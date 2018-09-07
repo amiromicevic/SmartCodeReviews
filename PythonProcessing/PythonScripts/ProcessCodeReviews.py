@@ -1,5 +1,6 @@
 # https://stackoverflow.com/questions/33725862/connecting-to-microsoft-sql-server-using-python
-# this is work in progress
+# this is work in progress.
+# getData method relies on IronPython referencing .NET framework
 
 import clr
 clr.AddReference('System.Data')
