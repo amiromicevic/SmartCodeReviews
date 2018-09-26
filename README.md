@@ -4,9 +4,9 @@ This project downloads team code reviews notes and applies NLP processing to the
 
 The point is in the fact that a lot of "information" may be available to mine from the code review notes that can provide new, creative and yet undiscovered insights into individual and team's thinking, state, culture and areas for improvement.
 
-Depending on the results of this project, particualrly of the Python componenet carrying out the NLP tasks, similar approach may be deployed to other areas that could benefit from natural text processing.
+Depending on the results of this project, which is in a way a proof of concept, particularly on the results of the Python models carrying out the NLP tasks, similar approach may be deployed to other areas, much more significant to business, that could benefit from natural text processing.
 
-The project utilisies C# as the main service provider and Python as the data scientfic and machine learning component. The following section depicts the basic, overall design and implementation.
+The project utilisies C# as the main service provider and Python as the data scientific and machine learning component. The following section depicts the basic, overall design and implementation.
 
 DESIGN
 
